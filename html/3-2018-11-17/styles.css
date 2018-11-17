@@ -1,0 +1,30 @@
+header {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-con {
+  width: 40%;
+  height: 100px;
+}
+
+.div-mot {
+  /* padding: 10px; */
+  /* border: 5px solid green; */
+  /* margin-right: 100px; */
+  background-color: goldenrod;
+}
+
+.div-hai {
+  background-color: red;
+}
+
+.mau-xanh {
+  color: green;
+}
+
+.Header {
+  margin-top: 46px !important;
+}
