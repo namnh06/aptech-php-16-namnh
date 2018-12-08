@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <button id="btnOn">Turn on the light</button>
+    <img id="myImage" src="pic_bulbon.gif" style="width:100px" />
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+      Turn off the light
+    </button>
+
+    <script>
+      document.getElementById('btnOn').addEventListener('click', turnOn);
+      function turnOn() {
+        // document.getElementById('myImage').src = 'pic_bulbon.gif';
+        // $('#myImage').src = '';
+        console.log(document.getElementById('myImage').src);
+      }
+      turnOn();
+      // searchString
+      // Find String
+      // var x = 5;
+      // var y = 6;
+      // var z = x + y;
+      // var ten = 'Nguyen Hai Nam';
+      // var a = z + ten;
+      // console.log(typeof a, a);
+      // console.log(document.getElementById('heading1'));
+      // document.write('fadsfsad');
+    </script>
+  </body>
+</html>
