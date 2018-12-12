@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // $('#div1').html('hehe');
+        // $('button').click(function() {
+        //   $('#div1').load('demo.txt');
+        // });
+        // $('button').click(function() {
+        $.get('./data.json', function(data, status) {
+          console.log(data);
+          //     var mot = data.mot;
+          //     $('#div1').html(
+          //       '<h1>' + mot.name + '</h1><br><h2>' + mot.age + '</h2>'
+          //     );
+          //     var hai = data.hai;
+          //     $('#div2').html(
+          //       '<h1>' + hai.name + '</h1><br><h2>' + hai.age + '</h2>'
+          //     );
+          //     // for -- foreach
+        });
+        // });
+        var a = [99, 'Nam', 'nam 2018']; // array
+        console.log(a[2]);
+        var b = { name: 'Nam', age: 100 };
+        console.log(b.name);
+        data.users[0].name;
+      });
+    </script>
+  </head>
+  <body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <button>Get External Content</button>
+  </body>
+</html>

@@ -2,20 +2,35 @@
 <html lang="en">
   <head> </head>
   <body>
-    <button id="btnOn">Turn on the light</button>
+    <!-- <button id="btnOn">Turn on the light</button> -->
     <img id="myImage" src="pic_bulbon.gif" style="width:100px" />
-    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
-      Turn off the light
-    </button>
+    <button id="btnSwitch">Switch</button>
+    <!--
+      <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+        Turn off the light
+      </button>
+    -->
 
     <script>
-      document.getElementById('btnOn').addEventListener('click', turnOn);
-      function turnOn() {
-        // document.getElementById('myImage').src = 'pic_bulbon.gif';
-        // $('#myImage').src = '';
-        console.log(document.getElementById('myImage').src);
+      document
+        .getElementById('btnSwitch')
+        .addEventListener('click', switchLight);
+      function switchLight() {
+        var chuoiTenAnh = document.getElementById('myImage').src;
+        console.log(chuoiTenAnh);
+        if (chuoiTenAnh === 'http://127.0.0.1:5500/pic_bulbon.gif') {
+          // fasdfsdkjfkjsd
+        } else {
+          //  fjashdkfkjsd
+        }
       }
-      turnOn();
+      // document.getElementById('btnOn').addEventListener('click', turnOn);
+      // function turnOn() {
+      // document.getElementById('myImage').src = 'pic_bulbon.gif';
+      // $('#myImage').src = '';
+      // console.log(document.getElementById('myImage').src);
+      // }
+      // turnOn();
       // searchString
       // Find String
       // var x = 5;

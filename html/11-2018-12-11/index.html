@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h1 id="heading" style="display:block;">Hello World</h1>
+    <button id="btnHidden">Hidden Heading</button>
+    <script>
+      document
+        .getElementById('btnHidden')
+        .addEventListener('click', hiddenHeading);
+      function hiddenHeading() {
+        var target = document.getElementById('heading');
+        // console.log(target.style.display);
+        if (target.style.display === 'block') {
+          return (target.style.display = 'none');
+        }
+        target.style.display = 'block';
+        // document.getElementById('heading').style = 'display:none;';
+      }
+    </script>
+  </body>
+</html>
