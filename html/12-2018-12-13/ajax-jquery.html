@@ -18,6 +18,12 @@
               // data['php-15'][0]['name']
               for (var j = 0; j < data[keys[i]].length; j++) {
                 // console.log(data[keys[i]][j]['name']);
+                var a =
+                  '<table><thead><td>' +
+                  data[keys[i]][j].name +
+                  '</td></thead></table>';
+                // var a chua biet dung sai !!!
+                document.write(a);
               }
             }
           });
