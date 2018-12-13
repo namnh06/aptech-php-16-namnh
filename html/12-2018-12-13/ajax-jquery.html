@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button id="btnAjax">Get data</button>
+    <script>
+      $(document).ready(function() {
+        $('#btnAjax').click(function() {
+          $.get('data.json', function(data, status) {
+            // mong muon data['php-15'][0].name
+            var keys = Object.keys(data);
+            // keys = ['php-15','php-16','php-17'];
+            for (var i = 0; i < keys.length; i++) {
+              // i++ ~ i = i + 1
+              // console.log(keys[i]);
+              // data['php-15'][0]['name']
+              for (var j = 0; j < data[keys[i]].length; j++) {
+                // console.log(data[keys[i]][j]['name']);
+              }
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

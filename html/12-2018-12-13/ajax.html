@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <p id="demo">Let AJAX change this text.</p>
+
+    <button type="button" onclick="loadDoc()">Lay Du Lieu JSON</button>
+
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var a = this.response;
+
+            var b = JSON.parse(a);
+            var c = [
+              {
+                name: 'Binh'
+              },
+              {
+                name: 'Nga'
+              },
+              {
+                name: 'Toan'
+              }
+            ];
+            var d = [5, 'nam'];
+            console.log(typeof d);
+            // console.log(typeof b['php-16'][0]);
+            // console.log(b['php-16'][0].name);
+          }
+        };
+        xhttp.open('GET', 'data.json', true);
+        xhttp.send();
+      }
+    </script>
+  </body>
+</html>

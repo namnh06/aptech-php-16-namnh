@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      id="Header"
+      class="container bg-danger"
+      style="height:200px;display:none;"
+    ></div>
+    <button class="btn btn-success" id="btnAnHien">Click An Hien</button>
+    <script>
+      $(document).ready(function() {
+        $('#btnAnHien').click(function() {
+          console.log($('#Header').attr('style'));
+          var a = $('#Header').attr('style');
+          if (a.includes('display:none')) {
+            // HIEN NO LEN
+            $('#Header').fadeIn();
+          } else {
+            // AN NO DI
+            $('#Header').fadeOut();
+          }
+          // if ($('#Header').hasClass('d-flex')) {
+          // fadeIn
+          // $('#Header').toggleClass('d-flex');
+          // $('#Header').toggleClass('d-none');
+          // console.log('E, co class d-flex');
+          // } else {
+          // $('#Header').toggleClass('d-flex');
+          // $('#Header').toggleClass('d-none');
+          // }
+        });
+      });
+    </script>
+  </body>
+</html>
