@@ -1,0 +1,21 @@
+.Index {
+  &__Header {
+    &__Logo--color {
+      color: green;
+    }
+    &__Image-Korea--bg {
+      background: blue;
+      padding: 10px;
+    }
+    &__Login--btn {
+      border: 5px;
+    }
+  }
+  &__Footer__Image-Korea--bg {
+    background: green;
+    padding: 5px;
+  }
+}
+
+.Image-Korea {
+}
