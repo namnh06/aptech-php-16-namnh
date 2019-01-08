@@ -111,8 +111,8 @@ echo $a + $b; //float
         <th>Made In</th>
       </tr>
     </thead>
-    <tbody></tbody>
-    <?php
+    <tbody>
+      <?php
     for ($i = 0; $i < count($data); $i++) {
         echo "<tr>";
         echo "<th>" . ($i + 1) . "</th>";
