@@ -1,0 +1,8 @@
+.Container__Bg-img{
+    background-image: url(./img2.jpg);
+    height: 400px;
+    width: 100%;
+}
+#div1{
+    display: none;
+}

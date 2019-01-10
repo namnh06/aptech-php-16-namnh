@@ -1,0 +1,74 @@
+.title-img-top{
+    background-image:url("./kristi-martin-641503-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 500px;
+}
+.title-img-bottom{
+    background-image:url("./riccardo-lapi-1178368-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 300px;
+}
+.title-content{
+    position: absolute;
+}
+.services-icon{
+    color: dodgerblue;
+    font-size: 80px;
+}
+.img-content-1{
+    background-image:url("./sasha-set-503963-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 300px;
+}
+.img-content-2{
+    background-image:url("./kea-mowat-608233-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 300px;
+}
+.img-content-3{
+    background-image:url("./jon-del-rivero-505482-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: inherit;
+    height: 300px;
+}
+.img1{
+    width: 170px;
+    height: 170px;
+    
+}
+.img2{
+    width: 170px;
+    height: 170px;
+}
+.img3{
+    width: 170px;
+    height: 170px;
+}
+.fab{
+    color:  dodgerblue;
+}
+.information-bottom{
+    height: 150px;
+}
+.community-icon{
+font-size: 30px;
+}

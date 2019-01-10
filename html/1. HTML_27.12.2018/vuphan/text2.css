@@ -1,0 +1,33 @@
+.banner{
+    background-image: url(./photo-1545579342-acd65749909e.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h2{
+    color: #fff;
+   text-align: center;
+}
+.main{
+    text-align: center;
+    background-color: #F7FBFD;
+    height: 300px;
+}
+.featurette{
+    text-align: center;
+    background-color: #F7FBFD;
+    height: auto;
+}
+.h-anh{
+    background-image: url(./photo-1545579342-acd65749909e.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h-anh h2{
+    color: #fff;
+   text-align: center;
+}
+.text-muted{
+    background-color: #F7FBFD;
+}

@@ -1,0 +1,93 @@
+.h1 {
+    background-image: url('/image/anhh.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.h2 {
+    background-image: url('/image/anh2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.h3 {
+    background-image: url('/image/anh3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.h4 {
+    background-image: url('/image/anh1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.relative {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.absolute {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 80%;
+    height: 100px;
+}
+
+.input-signup {
+    margin-left: 160px;
+}
+
+.form-signup {
+    width: 80%;
+}
+
+.ic {
+    font-size: 50px;
+    color: #007bff;
+}
+
+.h5 {
+    background-image: url('/image/anh4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.h6 {
+    background-image: url('/image/anh5.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.h7 {
+    background-image: url('/image/anh6.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.hh {
+    background-image: url('/image/anhh.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.absolute_2 {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 80%;
+    height: 100px;
+}

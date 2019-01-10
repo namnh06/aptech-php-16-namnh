@@ -1,0 +1,85 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+.water{
+    background-image: url('/html/15-2018-12-15/image/nuoc.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.water-2{
+    background-image: url('/html/15-2018-12-15/image/nuoc.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.hhh{
+    background-image: url('/html/8-2018-1-12/image/1.jpg');
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.hhh2{
+    background-image: url('/html/8-2018-1-12/image/2.jpg');
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.hhh3{
+    background-image: url('/html/8-2018-1-12/image/3.jpg');
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-image{
+    background-image: url('/html/8-2018-1-12/image/4.jpg');
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.style-nav{
+    top:75%;
+    left:10%; 
+    color:white;
+
+}
+.icon-size{
+    font-size: 180px;
+    color: #288EFF;
+}
+.size-icon-footer{
+    font-size: 30px;
+    color: #288EFF;
+}
+.hien{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+@media only screen and (max-width:767px){
+   .ip-size{
+       width: 100% !important;
+   }
+   .btn-size{
+       width: 100%;
+   }
+   .icon-size{
+    font-size: 100px;
+    color: #288EFF;
+   }
+   .text-dn{
+       display: none;
+   }
+   .text-d-none{
+    display: inline-block;
+}
+ }
+ @media only screen and (min-width:768px){
+    .text-d-none{
+        display: none;
+    }
+  }
+
+
