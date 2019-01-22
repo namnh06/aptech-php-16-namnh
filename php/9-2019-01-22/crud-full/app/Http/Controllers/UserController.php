@@ -73,8 +73,8 @@ class UserController extends Controller
     public function edit($id)
     {
         //
-        $user = DB::table;
-        return view('gjgjg', ['user' => user]);
+        $user = DB::table('users')->where('id', '=', $id)->get();
+        return view('users.edit', ['user' => $user]);
     }
 
     /**
@@ -87,6 +87,9 @@ class UserController extends Controller
     public function update(Request $request, $id)
     {
         //
+        DB::table('users');//lam cai gi do ma update duoc user co id = $id va thay doi cac gia tri cua no bang $request->...
+
+        return 'ok man';
     }
 
     /**
