@@ -22,7 +22,9 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name' => $faker->name,
             'email' => $faker->safeEmail(),
-            'password' => 123
+            'password' => bcrypt($requets->password)
         ]);
+
+        if(User::where('email',$email)->where('password',bcrypt($password))){}
     }
 }
