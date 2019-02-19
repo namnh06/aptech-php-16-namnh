@@ -20,6 +20,7 @@ class PostController extends Controller
     public function index()
     {
         //
+        return '<h1>hihi</h1>';
     }
 
     /**
@@ -31,6 +32,7 @@ class PostController extends Controller
     {
         //
         return view('posts.create');
+        // return response()->json_encode(['a' => '123']);
     }
 
     /**
@@ -42,7 +44,14 @@ class PostController extends Controller
     public function store(Request $request)
     {
         //
-        dd($request->content);
+
+        Post::insert([
+            'title' => $request->title,
+            'category' => $request->category,
+            'content' => $request->content
+        ]);
+        return redirect()->route("posts.index");
+
     }
 
     /**
@@ -54,6 +63,9 @@ class PostController extends Controller
     public function show(Post $post)
     {
         //
+        return view('posts.show', ['post' => $post]);
+        // view
+
     }
 
     /**

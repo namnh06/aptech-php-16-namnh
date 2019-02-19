@@ -23,7 +23,7 @@
           <textarea name="content" id="editor" cols="30" rows="10"></textarea>
         </div>
         <div class="form-group">
-          <button type="submit" class="btn btn-success">Save</button>
+          <button type="submit" class="btn btn-success">Create</button>
         </div>
       </form>
     </div>
@@ -37,6 +37,8 @@
   CKFinder.setupCKEditor( editor );
 
 </script>
+
+
 
 
 
