@@ -14,8 +14,9 @@
         <div class="form-group">
           <label for="category">Category</label>
           <select name="category" id="" class="form-control">
-            <option value="php">PHP</option>
-            <option value="laravel">laravel</option>
+            @foreach($categories as $category)
+          <option value="{{$category->id}}">{{$category->name}}</option>
+            @endforeach
           </select>
         </div>
         <div class="form-group">
@@ -37,6 +38,10 @@
   CKFinder.setupCKEditor( editor );
 
 </script>
+
+
+
+
 
 
 
